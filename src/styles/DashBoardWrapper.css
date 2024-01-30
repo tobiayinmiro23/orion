@@ -1,0 +1,88 @@
+.DashBoardWrapper{
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+}
+.DashBoardWrapper .navigator .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+     padding-top: 1.8rem; 
+     margin-bottom: 6rem;
+}
+.DashBoardWrapper .navigator{
+    width: 20vw;
+    height: 100vh;
+    /* background:linear-gradient(#1E9FE7,#063848) ; */
+    background-color: #1E9FE7;
+}
+.DashBoardWrapper .navigator .img{
+    width: 8rem;
+    margin: auto;
+   
+}
+.DashBoardWrapper .navigator .wrapper{
+    /* text-align: center; */
+    width: fit-content;
+    margin: auto;
+}
+.DashBoardWrapper .navigator .wrapper p{
+    margin: 2rem 0rem;
+    padding:0.4rem 0.8rem ;
+    cursor: pointer;
+}
+.DashBoardWrapper .navigator .signout{
+    margin-top: 35vh;
+    text-align: center;
+}
+.active{
+    color: #1E9FE7;
+    background-color: white;
+    border-radius: 1.1rem;
+    /* width: fit-content;
+    text-align: center;
+    margin: auto; */
+}
+.DashBoardWrapper .container{
+    background-color: #DCDADA;
+    width: 80vw;
+    height: 100vh;
+    overflow-y: auto;
+    padding:1rem 2rem;
+}
+@media only screen and (max-width:968px){
+    .DashBoardWrapper .navigator{
+        width: 30vw;
+    }
+    .DashBoardWrapper .container{
+        width: 70vw;
+    }
+}
+@media only screen and (max-width:882px){
+    .DashBoardWrapper .navigatorMobile{
+        position: absolute;
+        left: 0%;
+        height: 100vh;
+        transition: 1s;
+    }
+    .DashBoardWrapper .navigator{
+        /* width: 30vw; */
+        width: 100%;
+        position: absolute;
+        left: -100%;
+        transition: 1s;
+        height: 100vh;
+    }
+    .DashBoardWrapper .navigatorMobile{
+        position: absolute;
+        left: 0%;
+        height: 100vh;
+        transition: 1s;
+        background-color: #1E9FE7;
+
+    }
+    .DashBoardWrapper .container{
+        width: 100%;
+    }
+}
