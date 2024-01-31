@@ -1,0 +1,47 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+}
+
+nav .menu {
+    visibility: hidden;
+}
+
+nav .userInfo {
+    display: flex;
+    align-items: center;
+}
+
+nav .img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+nav select {
+    border: none;
+    outline: none;
+    background: none;
+    margin-right: 1rem;
+    
+}
+
+nav .userInfo .menu {
+    display: none;
+}
+@media only screen and (max-width:882px){
+     nav .menu{
+        visibility: visible;
+    }
+}
+@media only screen and (max-width:526px){
+     nav {
+        padding: 0rem 1rem;
+    }
+}
+@media only screen and (max-width:375px){
+     nav {
+        padding: 0rem 0.5rem;
+    }
+}
