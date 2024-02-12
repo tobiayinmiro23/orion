@@ -1,0 +1,52 @@
+.Accordionn{
+}
+#panel1bh-header{
+    box-shadow: none;
+}
+
+
+.details{
+    border-radius: 0rem 0rem 2rem 2rem;
+}
+.Accordionn{
+    width: 100%;
+    margin: 4rem auto;
+}
+.Accordionn .heading{
+    width: 90%;
+    overflow: hidden;
+    height: 2.5rem;
+}
+#accordionWrapper::before{
+    background:none;
+    border-radius: 1rem;
+}
+.Accordionn .white{
+    color: white;
+}
+#panel1bh-content{
+    box-shadow: none;
+    color: black;
+    background-color: rgba(249, 248, 248, 0.862);
+    /* box-shadow: 0px 0px 5px 1px rgb(226, 225, 225); */
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+.MuiCollapse-root{
+    border-radius: 0rem 0rem 2rem 2rem;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root{
+}
+#accordionWrapper{
+    border-radius: 2rem 2rem 0rem 0rem;
+    border-radius: 1rem ;
+    background-color:  #0D5777;
+    color: white;
+    padding: 0rem;
+    margin: 1.4rem 0rem;
+}
+.info h3{
+    display: inline;
+}
+.info{
+    margin: 1rem 0rem;
+}
